@@ -10,6 +10,8 @@
 
 > Duyurular ve güncellemeler için tweet atmıyorum, sadece [buradan](https://t.me/RuesAnnouncement) paylaşıyorum.
 
+> Sunucu olarak Ubunutu 22.04 kullancağız, 20.04 de hatalar veriyor
+
 # Kurulum.
 
 > Öncelikle kendimize [buradan](https://app.pingpong.build/points?invite_code=e6ny5YsT) bir Pingpong hesap oluşturuyoruz.
