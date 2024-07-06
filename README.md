@@ -86,7 +86,7 @@ chmod +x ./PINGPONG && ./PINGPONG --key <KEY>
 <img width="370" alt="Ekran Resmi 2024-06-16 09 35 30" src="https://github.com/ruesandora/pingpongbuild/assets/101149671/5da1b540-1e67-4534-8059-0a30a49f646f">
 
 > Çok çabaladım windows için ama gece ve bayram arifesi olduğu için ve donanımsal bir problem olduğu için mecbur linux anlattım.
-
+ 
 > çözersem veya çözersek bu repoda birleştiririz.
 
 > Bu node'u artık tüm linux sunucularınızda maliyetsiz bir şekilde çalıştırabilirsiniz.
