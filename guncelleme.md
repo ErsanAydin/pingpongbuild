@@ -51,10 +51,9 @@ GRASS için bazı komutlar aşağıdaki gibidir. Başlatmak ve durdurmak için. 
 ```
 
 ------------------------------------------- Aioz Kurulumu ------------------------------------------------------------------------
-
-Aioz kurabilmemiz için öncelikle aioz cüzdana ihtiyacımız var
-Eğer birden fazla, pingpong çalıştırıyorsak cüzdan adımını bir kere yapmamız yeterli olacak, amaç burada aioz private key elde etmek
-Buradaki adımları screen e girmeden yapıyoruz
+<br>Aioz kurabilmemiz için öncelikle aioz cüzdana ihtiyacımız var
+<br>Eğer birden fazla, pingpong çalıştırıyorsak cüzdan adımını bir kere yapmamız yeterli olacak, amaç burada aioz private key elde etmek
+<br>Buradaki adımları screen e girmeden yapıyoruz
 ```console
 curl -LO https://github.com/AIOZNetwork/aioz-dcdn-cli-node/files/13561211/aioznode-linux-amd64-1.1.0.tar.gz
 tar xzf aioznode-linux-amd64-1.1.0.tar.gz
