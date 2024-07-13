@@ -32,6 +32,9 @@
 
 # pingpongu yüklüyoruz
 wget https://pingpong-build.s3.ap-southeast-1.amazonaws.com/linux/latest/PINGPONG
+
+# Eğer üstteki uzun sürerse alternatif link ile deneyin
+http://135.181.28.135:8080/downloads/PINGPONG
 ```
 
 #
@@ -87,7 +90,7 @@ chmod +x ./PINGPONG && ./PINGPONG --key <KEY>
 > Terminal ekranını kapatmadan CTRL+A sonra D tuşu ile screenden çıkalım daha sonra kapatabiliriz
 
 > Çok çabaladım windows için ama gece ve bayram arifesi olduğu için ve donanımsal bir problem olduğu için mecbur linux anlattım.
-
+ 
 > çözersem veya çözersek bu repoda birleştiririz.
 
 > Bu node'u artık tüm linux sunucularınızda maliyetsiz bir şekilde çalıştırabilirsiniz.
