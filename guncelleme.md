@@ -64,12 +64,13 @@ mv aioznode-linux-amd64-1.1.0 aioznode
 ./aioznode version
 ```
 
-Burada vereceği mnemonic privateke vs. onları not edelim lazım olacak,
+<br>Burada vereceği mnemonic privateke vs. onları not edelim lazım olacak,
 ```console
 ./aioznode keytool new --save-priv-key privkey.json
 ```
-Aioz Private key imizi pingponga import ediyoruz
-Private keyimizin sonunda = işareti varsa onuda dahil ediyoruz 
+<br>Aioz Private key imizi pingponga import ediyoruz
+<br>Private keyimizin sonunda = işareti varsa onuda dahil ediyoruz 
+<br>*** olan yere Private key giriyoruz ve ENTER yapıyoruz. Bize succes olacak bir çıktısı verecek ve tekrar Screen içierisine girip Ctrl + C yapıp durduruyoruz ve ardından tekrar başlatıyoruz.
 ```console
 ./PINGPONG config set --aioz=***
 ```
