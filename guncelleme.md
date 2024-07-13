@@ -70,7 +70,9 @@ Burada vereceği mnemonic privateke vs. onları not edelim lazım olacak,
 ```
 Aioz Private key imizi pingponga import ediyoruz
 Private keyimizin sonunda = işareti varsa onuda dahil ediyoruz 
+```console
 ./PINGPONG config set --aioz=***
+```
 
 ![Aioz](https://docs.pingpong.build/~gitbook/image?url=https%3A%2F%2F4218866956-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FL3pmMG28FGN0WFBuuVhL%252Fuploads%252FC53lyDIe0ZCR6HEgSDoL%252FGroup%25201912056007%2520%281%29.png%3Falt%3Dmedia%26token%3Dd3aa4135-7d3d-4985-bac8-71e719623878&width=768&dpr=4&quality=100&sign=bd784b2b&sv=1)
 
