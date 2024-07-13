@@ -49,3 +49,36 @@ GRASS için bazı komutlar aşağıdaki gibidir. Başlatmak ve durdurmak için. 
 ./PINGPONG stop --depins=grass
 ./PINGPONG start --depins=grass
 ```
+
+
+------------------------------------------- Aioz Kurulumu ------------------------------------------------------------------------
+Aioz kurabilmemiz için öncelikle aioz cüzdana ihtiyacımız var
+Eğer birden fazla, pingpong çalıştırıyorsak cüzdan adımını bir kere yapmamız yeterli olacak, amaç burada aioz private key elde etmek
+Buradaki adımları screen e girmeden yapıyoruz
+```console
+curl -LO https://github.com/AIOZNetwork/aioz-dcdn-cli-node/files/13561211/aioznode-linux-amd64-1.1.0.tar.gz
+tar xzf aioznode-linux-amd64-1.1.0.tar.gz
+mv aioznode-linux-amd64-1.1.0 aioznode
+```
+
+```console
+./aioznode version
+```
+
+Burada vereceği mnemonic privateke vs. onları not edelim lazım olacak,
+```console
+./aioznode keytool new --save-priv-key privkey.json
+```
+Aioz Private key imizi pingponga import ediyoruz
+Private keyimizin sonunda = işareti varsa onuda dahil ediyoruz 
+./PINGPONG config set --aioz=***
+
+![Aioz](https://docs.pingpong.build/~gitbook/image?url=https%3A%2F%2F4218866956-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FL3pmMG28FGN0WFBuuVhL%252Fuploads%252FC53lyDIe0ZCR6HEgSDoL%252FGroup%25201912056007%2520%281%29.png%3Falt%3Dmedia%26token%3Dd3aa4135-7d3d-4985-bac8-71e719623878&width=768&dpr=4&quality=100&sign=bd784b2b&sv=1)
+
+Aioz için bazı komutlar aşağıdaki gibidir. Başlatmak ve durdurmak için.
+```console
+./PINGPONG stop --depins=0g
+```
+```console
+./PINGPONG start --depins=0g
+```
